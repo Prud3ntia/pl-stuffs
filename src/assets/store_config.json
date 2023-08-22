@@ -1,0 +1,45 @@
+{
+  "store_name": "My Awesome Store",
+  "store_slug": "react-stripe-store",
+  "api_key": "{pk_live_ZA3nl0ETq1EzAUiDZ5Y5Npsq}",
+  "colors":
+  {
+    "primary":
+    {
+      "main": "#FF6A64",
+      "dark": "#BF4F4B",
+      "contrastText": "#FFF"
+    },
+    "secondary":
+    {
+      "main": "#ffffff"
+    }
+  },
+  "products": [
+  {
+    "name": "Phone Lasso Kit",
+    "url": "url-for-product",
+    "stripe_id": "{'price_1NYxGXFtezS8Z8bWJpu13PqD'}",
+    "description": "Replacing your phone is expensive – and being disconnected from your world is stressful! The Phone Lasso’s rugged strength and durability allows you to take on life’s daily adventures with a simple peel, stick, click",
+    "photos": ["../", "photo2.jpg"],
+    "details": [
+      "Keeps your device safe from drops, dunks & loss",
+      "Universal for all cell phones and cases",
+      "Includes adjustable neck lanyard and wristlet for hands-free action",
+      "Metal carabiner hooks to belt loops, purses, bags, and gear",
+      "Easily removable from all materials"
+
+    ],
+    "variants":
+    {
+      "name": "Kit Color Choice",
+      "options": [
+      {
+        "label": "Black Kit"
+      },
+      {
+        "label": "White Kit"
+      }]
+    }
+  }]
+}
